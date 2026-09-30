@@ -4,27 +4,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:padding="16dp"
+    android:padding="24dp"
     android:orientation="vertical"
     tools:context=".HomeFragment">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/course_icon"
+        android:contentDescription="Course image" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="Manu"
-        style="@style/CustomTextView18Bold"/>
+        android:text="Praktikum Pemrograman Perangkat Bergerak"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="28dp"
+        android:text="Ariq Muhammad - B1"
+        android:textSize="16sp"
+        android:gravity="center" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_oop"
+        android:id="@+id/btn_materi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Materi OOP"
+        android:text="Materi"
         style="@style/CustomRoundedButton" />
+
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_android"
-        android:layout_marginTop="16dp"
+        android:id="@+id/btn_quiz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Materi Android"
+        android:layout_marginTop="12dp"
+        android:text="Quiz"
         style="@style/CustomRoundedButton" />
+
 </LinearLayout>
