@@ -14,7 +14,6 @@
         android:layout_height="140dp"
         android:src="@drawable/empty_icon"
         android:contentDescription="Quiz belum tersedia" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,12 +21,11 @@
         android:text="Quiz tidak ditemukan."
         android:textSize="18sp"
         android:textStyle="bold" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
         android:text="No quiz today!"
         android:textSize="14sp" />
-
 </LinearLayout>
+

@@ -24,3 +24,4 @@ class SectionsPagerAdapter(activity: AppCompatActivity) :
         return 3
     }
 }
+
